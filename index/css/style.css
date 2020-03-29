@@ -66,14 +66,16 @@ div img {
     padding-top: 11px;
 }
 .themes {
+    width: 660px;
     display: flex;
     padding-top: 36px;
+    padding-left: 125px;
     justify-content: space-between;
     margin: auto;
 }
 .moderator {
     width: 170px;
-    padding-left: 60px;
+
 }
 .moderator h4 {
     font-size: 24px;
@@ -83,7 +85,32 @@ div img {
 .moderator p {
     font-size: 16px;
 }
-
+.block_lecturer {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    padding-top: 30px;
+}
+.time_3 p {
+    font-size: 24px;
+    padding-top: 53px;
+    padding-right: 100px;
+}
+.block_lecturer_info {
+    width: 175px;
+}
+.block_lecturer_info img {
+    margin: auto;
+    width: 120px;
+    height:120px;
+}
+.block_lecturer_info h3 {
+    font-size: 24px;
+    color: #000000;
+}
+.block_lecturer_info p {
+    font-size: 18px;
+}
 
 
 
