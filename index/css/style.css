@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     font-size: inherit;
+    font-family: 'Oswald', sans-serif;
 }
 .container {
     margin: auto;
@@ -23,6 +24,11 @@
     width: 835px;
     display: flex;
 }
+.time_info_1 {
+    margin: auto;
+    width: 835px;
+}
+
 .time_info h2{
     color: #fefefe;
     font-size: 48px;
@@ -68,25 +74,32 @@ div img {
 .themes {
     display: flex;
     padding-top: 36px;
-    padding-left: 125px;
     justify-content: space-between;
     margin: auto;
 }
 .moderator {
     width: 180px;
-    margin-left: 65px;
+    margin-left: 155px;
 }
-.moderator h4 {
+.moderator_1 {
+    width: 150px;
+    margin-left: 70px;
+
+}
+.moderator_2 {
+    width: 180px;
+    margin-left: 100px;
+}
+.themes h4 {
     font-size: 24px;
     padding-bottom: 25px;
     text-transform: uppercase;
 }
-.moderator p {
+.themes p {
     font-size: 16px;
 }
 .block_lecturer {
     width: 100%;
-    margin: auto;
     display: flex;
     justify-content: space-between;
     padding-top: 30px;
@@ -95,20 +108,19 @@ div img {
     display: block;
     content: "";
     height: 1px;
-    max-width: 732px;
-    background-color: #898989;
-    margin: auto;
+    width: 662px;
+    background-color: #000000;
+    position: absolute;
+    margin: 70px 0 0 75px;
 }
 .time_3 p {
     font-size: 24px;
     padding-top: 53px;
-    padding-right: 100px;
+    padding-right: 30px;
 }
 .block_lecturer_info {
-    width: 180px;
-    padding-left: 50px;
+    width: 185px;
 }
-
 .block_lecturer_info img {
     margin: auto;
     width: 120px;
