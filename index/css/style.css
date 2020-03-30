@@ -91,6 +91,14 @@ div img {
     justify-content: space-between;
     padding-top: 30px;
 }
+.block_lecturer:after {
+    display: block;
+    content: "";
+    height: 1px;
+    max-width: 732px;
+    background-color: #898989;
+    margin: auto;
+}
 .time_3 p {
     font-size: 24px;
     padding-top: 53px;
@@ -100,6 +108,7 @@ div img {
     width: 180px;
     padding-left: 50px;
 }
+
 .block_lecturer_info img {
     margin: auto;
     width: 120px;
